@@ -37,7 +37,21 @@ float pembagian(int a, int b)
 int main()
 {
     int pilihan; 
-    std::cout << "Hello World!\n";
+
+    do
+    {
+        cout << "Kalkulator Sederhana" << endl;
+        cout << "====================" << endl;
+        cout << "1. Penjumlahan" << endl;
+        cout << "2. Pengurangan" << endl;
+        cout << "3. Perkalian" << endl;
+        cout << "4. Pembagian" << endl;
+        cout << "5. Keluar" << endl;
+        cout << "====================" << endl;
+        cout << "Masukan menu pilihan : ";
+        cin >> pilihan;
+    }
+    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
