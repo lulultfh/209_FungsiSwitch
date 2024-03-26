@@ -71,8 +71,14 @@ int main()
                 break;
             case 5:
                 break;
+            default:
+                cout << "PILIHAN TIDAK ADA" << endl;
+                break;
         }
-    }
+        system("Pause");
+        system("CLS");
+
+    } while (pilihan != 5);
     
 }
 
