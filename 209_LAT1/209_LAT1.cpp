@@ -57,6 +57,10 @@ int main()
                 inputData();
                 cout << "hasil penjumahan = " << penjumlahan(bilangan1, bilangan2) << endl;
                 break;
+            case 2:
+                inputData();
+                cout << "Hasil Pengurangan = " << pengurangan(bilangan1, bilangan2) << endl;
+                break;
         }
     }
     
